@@ -11,6 +11,7 @@ categories:
     - "golang"
 
 series: Hugo 101
+draft: true
 ---
 
 Hugo uses the excellent [Go][] [html/template][gohtmltemplate] library for

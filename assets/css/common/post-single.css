@@ -265,10 +265,10 @@
     border-radius: var(--radius);
     padding: 0.4em;
 }
-
+/*
 .dark .toc {
     background: var(--entry);
-}
+} */
 
 .toc details summary {
     cursor: zoom-in;

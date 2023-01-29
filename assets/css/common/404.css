@@ -9,3 +9,10 @@
     font-size: 160px;
     font-weight: 700;
 }
+
+.not-found-subtext {
+    position: relative;
+    font-size: 30px;
+    font-weight: 400;
+    top: 100px;
+}

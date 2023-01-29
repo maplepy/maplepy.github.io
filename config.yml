@@ -1,0 +1,106 @@
+baseURL: https://maplepy.github.io/ # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+title: maplepy
+# theme: charlolamode
+languageCode: en
+copyright: <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>
+# rssLimit: 10  # Maximum number of items in the RSS feed.
+# paginate: 5
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+pygmentsUseClasses: true
+# buildDrafts  = false
+# buildFuture  = false
+# buildExpired = false
+# canonifyURLs = true
+# enableRobotsTXT = true
+# enableGitInfo   = false
+# enableEmoji     = true
+# enableMissingTranslationPlaceholders = false
+# disableRSS     = false
+# disableSitemap = false
+# disable404     = false
+# disableHugoGeneratorInject = false
+
+menu:
+  main:
+    - name: Contact
+      url: /contact/
+      weight: 30
+    - name: Articles
+      url: /articles/
+      weight: 20
+    # - name: Projects
+    #   url: /projects/
+    #   weight: 15
+
+    # - name: Categories
+    #   url: /categories/
+    #   weight: 10
+    # - name: new Tab
+    #   url: /newtab/
+    #   weight: defines order of tabs
+
+languages:
+  en:
+    # subtitle: Hello Friend NG Theme
+    weight: 1
+    # copyright: '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  # fr:
+  #   weight: 1
+    # subtitle: Hello Friend NG Theme
+    # copyright: '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+params:
+  author: maplepy
+  permalinks: /posts/:year/:month/:title/
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: false # Table of content
+  justifyContent: false  # Set "text-align: justify" to .post-content.
+
+  profileMode:
+    # Disable to populate home page with 'mainSections' content
+    enabled: true
+    title: Hej, I'm maplepy 👋
+    description: |
+
+      I'm a CS student at [42 Lyon](https://42lyon.fr/).
+      I mainly code in C and Shell.
+
+      This site will host documentation I made and my projects.
+    imageUrl: "/images/profile.png"
+    imageTitle: it is I
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+      - name: Don't click me please
+        url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+  mainSections:
+    - articles
+
+  socialIcons:
+    # - name: buymeacoffee
+    #   url: "https://ko-fi.com/heycharlola"
+    - name: github
+      url: "https://github.com/maplepy"
+    - name: email
+      url: "mailto:support@maplepy.8shield.net"
+
+  # change favicon in images folder (icon for web tab)
+  assets:
+    favicon: "/images/favicon.ico"
+    favicon16x16: "/images/favicon.ico"
+    favicon32x32: "/images/favicon.ico"
+    apple_touch_icon: "/images/apple-touch-icon.png"
+    safari_pinned_tab: "/images/apple-touch-icon.png"
+
+minify:
+  disableXML: true

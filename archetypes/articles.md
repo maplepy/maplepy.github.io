@@ -1,13 +1,11 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
+date: {{ now.Format "2006-01-02" }}
 description: Click on me to see the content.
-date: {{ .Date }}
-type: post
-draft: true
-toc: false
-images:
+# toc: false
 tags:
   - untagged
 categories:
-series:
+# series:
+# images:
 ---

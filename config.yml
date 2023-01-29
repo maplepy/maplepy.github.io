@@ -68,13 +68,12 @@ params:
   profileMode:
     # Disable to populate home page with 'mainSections' content
     enabled: true
-    title: Hej, I'm maplepy 👋
+    title: Hey, I'm maplepy 👋
     description: |
 
-      I'm a CS student at [42 Lyon](https://42lyon.fr/).
-      I mainly code in C and Shell.
+      I'm a computer science student at [42 Lyon](https://42lyon.fr/) and I primarily code in C and Shell.
 
-      This site will host documentation I made and my projects.
+      This site will host my documentation and projects.
     imageUrl: "/images/profile.png"
     imageTitle: it is I
     # imageWidth: 120

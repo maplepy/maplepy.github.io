@@ -62,8 +62,8 @@ params:
   displayFullLangName: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
-  ShowToc: false # Table of content
-  justifyContent: false  # Set "text-align: justify" to .post-content.
+  ShowToc: true # Table of content
+  # justifyContent: false  # Set "text-align: justify" to .post-content.
 
   profileMode:
     # Disable to populate home page with 'mainSections' content

@@ -1,7 +1,7 @@
 baseURL: https://maplepy.github.io/
 title: maplepy
 languageCode: en
-copyright: <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>
+copyright: "[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)"
 # rssLimit: 10  # Maximum number of items in the RSS feed.
 # paginate: 5
 

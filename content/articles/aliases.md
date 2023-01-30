@@ -121,6 +121,6 @@ Comme on peut le voir, dans `dirB`, la variable s'actualise alors qu'avec `dirA`
 
 #### Bash et les arguments
 
-Bash n'accepte pas d'arguments dans ses aliases, il veut utiliser les commandes [en tant que tel](https://youtu.be/Tj_DHw6L9BQ), donc sans aucun mots qui suit la commande. Pour cela, il faudra donc utiliser des fonctions.
+Bash n'accepte pas d'arguments dans ses aliases, il veut utiliser les commandes [en tant que tel](https://youtu.be/Tj_DHw6L9BQ), donc sans aucun mot qui suit la commande. Pour cela, il faudra donc utiliser des fonctions.
 
 [^1]: Attention, si vous tapez simplement la commande, elle ne sera pas gardée en mémoire lors d'une future ouverte de votre shell. Pour cela, il faut suivre la section [Fichiers de config](#fichiers-de-config)

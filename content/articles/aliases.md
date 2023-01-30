@@ -30,8 +30,8 @@ Pour cela rien de plus simple :
 - `alias norm='norminette -R CheckForbiddenSourceHeader'`
 
 D'autres exemples particulièrement pratiques :
-- `alias l='ls -l' # ls in a list format
-- `alias la='ls -A' # ls with hidden files
+- `alias l='ls -l' # ls in a list format`
+- `alias la='ls -A' # ls with hidden files`
 - `alias ll='ls -lA' # detailed ls with hidden files`
 - `alias lt='ls --tree'`
 - `alias code='open -a Visual\ Studio\ Code'` (connu pour résoudre le problème sur les Mac a 42)

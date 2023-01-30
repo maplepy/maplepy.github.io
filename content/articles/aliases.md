@@ -11,7 +11,7 @@ categories:
 ---
 
 
-Dans ce premier volet, nous verrons aborderons l'utilisation et la mise en place d'alias. C'est une pratique relativement simple à mettre en place et pourtant très puissante dans le quotidien d'un développeur.
+Dans ce premier volet, nous aborderons l'utilisation et la mise en place d'alias. C'est une pratique relativement simple à mettre en place et pourtant très puissante dans le quotidien d'un développeur.
 
 
 ### Les raccourcis
@@ -47,6 +47,7 @@ Imaginons que nous voulions tester tous nos fichiers `.c` dans le dossier couran
 
 Un autre exemple pour ceux qui aiment avoir leurs fichiers PDF et leurs testers dans le repo pour tout avoir sous la main, cette commande pourrait vous aider à nettoyer ceux-ci lors d'un push sur la vogsphere:
 - `alias findextra='find . -iname "*.sh" -o -iname "*.pdf"'` plus qu'à suivre cette commande d'un `-delete` pour tout supprimer.
+
   → ça donnerait `findextra -delete`
 
 

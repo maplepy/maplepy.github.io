@@ -117,7 +117,7 @@ Working directory is /home/max
 $ dirB
 Working directory is /home/max/42
 ```
-Comme on peut le voir, dans `dirB`, la variable s'actualise alors qu'avec `dirA`, ça n'est pas le cas.
+Comme on peut le voir avec `dirB`, la variable s'actualise en fonction du dossier dans lequel on se trouve, alors que ça n'est pas le cas avec `dirA`.
 
 #### Bash et les arguments
 

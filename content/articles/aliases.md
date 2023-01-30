@@ -73,6 +73,12 @@ C'est bien beau d'avoir tous ces aliases si on ne peut pas les utiliser sans fai
 - **ZSH**: `~/.zshrc`
 - **FISH**: `~/.config/fish/config.fish`
 
+Pour ajouter ces aliases de façon permanente, il faudra réécrire la même commande que vous avez tapé dans le terminal
+```bash
+alias v='nvim'
+alias norm='norminette -R CheckForbiddenSourceHeader'
+```
+
 ### Pourquoi vos aliases ne fonctionnent pas alors que vous avez bien suivi le tutoriel ?
 Eh bien tout simplement parce que les fichiers de config ne s'actualisent pas sur le shell lors d'une mise à jour de ceux-ci. Il faut explicitement dire à votre shell de recharger le fichier de configuration. Pour ce faire, rien de plus simple :
 - `source ~/foo` ou foo est le fichier de config de votre shell.
@@ -113,4 +119,4 @@ Comme on peut le voir, dans `dirB`, la variable s'actualise alors qu'avec `dirA`
 
 Bash n'accepte pas dans ses aliases des arguments, il les veut [en tant que tel](https://youtu.be/Tj_DHw6L9BQ). Il faudra donc utiliser des fonctions pour cela.
 
-[^1]: Attention, si vous tapez simplement la commande, elle ne sera pas gardée en mémoire lors d'une future ouverte de votre shell. Pour cela, il suivre la section [fichiers-de-config](#fichiers-de-config)
+[^1]: Attention, si vous tapez simplement la commande, elle ne sera pas gardée en mémoire lors d'une future ouverte de votre shell. Pour cela, il faut suivre la section [Fichiers de config](#fichiers-de-config)

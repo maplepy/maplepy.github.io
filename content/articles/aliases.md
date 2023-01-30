@@ -4,8 +4,12 @@ date: 2023-01-29
 description: Comment utiliser et configurer les aliases.
 # toc: false
 tags:
-  - untagged
+  - alias
+  - shell
+  - QoL
+  - fr
 categories:
+  - shell
 # series:
 # images:
 ---
@@ -117,6 +121,6 @@ Comme on peut le voir, dans `dirB`, la variable s'actualise alors qu'avec `dirA`
 
 #### Bash et les arguments
 
-Bash n'accepte pas dans ses aliases des arguments, il les veut [en tant que tel](https://youtu.be/Tj_DHw6L9BQ). Il faudra donc utiliser des fonctions pour cela.
+Bash n'accepte pas d'arguments dans ses aliases, il veut utiliser les commandes [en tant que tel](https://youtu.be/Tj_DHw6L9BQ), donc sans aucun mots qui suit la commande. Pour cela, il faudra donc utiliser des fonctions.
 
 [^1]: Attention, si vous tapez simplement la commande, elle ne sera pas gardée en mémoire lors d'une future ouverte de votre shell. Pour cela, il faut suivre la section [Fichiers de config](#fichiers-de-config)

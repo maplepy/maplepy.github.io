@@ -2,7 +2,7 @@
     {{- with .Site.Params.profileMode }}
     <div class="profile_inner">
         {{- if .imageUrl -}}
-        <img src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default " profile image" }}"
+        <img src='{{ .imageUrl | absURL }}' alt='{{ .imageTitle | default "profile image" }}'
             height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
         {{- end }}
         <h1>{{ .title | default $.Site.Title | markdownify }}</h1>
@@ -12,7 +12,7 @@
         {{- with .buttons }}
         <div class="buttons">
             {{- range . }}
-            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name | title }}">
+            <a class="button" href="{{ trim .url " " }}" target="_blank" rel="noopener" title="{{ .name | title }}">
                 <span class="button-inner">{{ .name | title }}</span>
             </a>
             {{- end }}

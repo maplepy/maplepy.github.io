@@ -24,8 +24,8 @@ pygmentsUseClasses: true
 
 menu:
   main:
-    - name: Contact
-      url: contact
+    - name: About me
+      url: about
       weight: 0
     - name: Articles
       url: articles
